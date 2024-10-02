@@ -1,0 +1,39 @@
+## Note comments are ignored
+ROOT -> S 
+
+
+S -> Det INAN | Det AN
+INAN -> INPLURAL | INSINGLE
+AN -> ANPLURAL | ANSINGLE
+INPLURAL -> InanNounPlural NPVP PLURALADJP
+INSINGLE -> InanNounSingular NPVP SINGLEADJP
+ANPLURAL -> AnNounPlural NPVP PLURALADJP | AnNounPlural NPVP V2PLURAL
+ANSINGLE -> AnNounSingular NPVP SINGLEADJP | AnNounSingular NPVP V2SINGLE
+NPVP -> That Det AnNounSingular V1
+PLURALADJP -> Are Adj
+SINGLEADJP -> Is Adj
+
+
+
+Det -> 'the'
+That -> 'that'
+Is -> 'is'
+Are -> 'are'
+AnNounSingular -> 'kid' | 'biker' | 'doctor' | 'dancer' | 'writer' | 'pilot' | 'athlete' | 'chef' | 'hiker' | 'farmer'
+AnNounPlural -> 'kids' | 'bikers' | 'doctors' | 'dancers' | 'writers' | 'pilots' | 'athletes' | 'chefs' | 'hikers' | 'farmers'
+InanNounSingular -> 'movie' | 'memory' | 'toy' | 'joke' | 'show'
+InanNounPlural -> 'movies' | 'memories' | 'toys' | 'jokes' | 'shows'
+V1 -> 'loves' | 'prefers' | 'respects' | 'hates' | 'detests'
+Adj -> 'entertaining' | 'sad' | 'old' | 'bright' | 'funny'
+V2PLURAL -> 'laugh' | 'swim' | 'paint' | 'cook' | 'smile'
+V2SINGLE -> 'laughs' | 'swims' | 'paints' | 'cooks' | 'smiles'
+
+
+
+
+
+
+
+
+
+
