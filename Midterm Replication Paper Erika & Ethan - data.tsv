@@ -1,0 +1,201 @@
+sentid	comparison	pairid	contextid	lemma	condition	pronoun	sentence	ROI	ROI word
+1	expected	1	1	HATE		na	the athlete that the athlete hates is funny	5	hates
+2	unexpected	1	1	HATE		na	the athlete that the athlete hate is funny	5	hate
+3	expected	2	2	HATE		na	the athlete that the farmer hates is funny	5	hates
+4	unexpected	2	2	HATE		na	the athlete that the farmer hate is funny	5	hate
+5	expected	3	3	LOVE		na	the athletes that the doctor loves are old	5	loves
+6	unexpected	3	3	LOVE		na	the athletes that the doctor love are old	5	love
+7	expected	4	4	LOVE		na	the athletes that the doctor loves are sad	5	loves
+8	unexpected	4	4	LOVE		na	the athletes that the doctor love are sad	5	love
+9	expected	5	5	PREFER		na	the biker that the chef prefers swims	5	prefers
+10	unexpected	5	5	PREFER		na	the biker that the chef prefer swims	5	prefer
+11	expected	6	6	DETEST		na	the biker that the pilot detests is entertaining	5	detests
+12	unexpected	6	6	DETEST		na	the biker that the pilot detest is entertaining	5	detest
+13	expected	7	7	PREFER		na	the bikers that the pilot prefers cook	5	prefers
+14	unexpected	7	7	PREFER		na	the bikers that the pilot prefer cook	5	prefer
+15	expected	8	8	DETEST		na	the chef that the biker detests is old	5	detests
+16	unexpected	8	8	DETEST		na	the chef that the biker detest is old	5	detest
+17	expected	9	9	PREFER		na	the chef that the farmer prefers swims	5	prefers
+18	unexpected	9	9	PREFER		na	the chef that the farmer prefer swims	5	prefer
+19	expected	10	10	DETEST		na	the chef that the kid detests cooks	5	detests
+20	unexpected	10	10	DETEST		na	the chef that the kid detest cooks	5	detest
+21	expected	11	11	RESPECT		na	the chefs that the athlete respects laugh	5	respects
+22	unexpected	11	11	RESPECT		na	the chefs that the athlete respect laugh	5	respsect
+23	expected	12	12	RESPECT		na	the chefs that the writer respects paint	5	respects
+24	unexpected	12	12	RESPECT		na	the chefs that the writer respect paint	5	respsect
+25	expected	13	13	PREFER		na	the dancer that the chef prefers is entertaining	5	prefers
+26	unexpected	13	13	PREFER		na	the dancer that the chef prefer is entertaining	5	prefer
+27	expected	14	14	DETEST		na	the dancers that the athlete detests are bright	5	detests
+28	unexpected	14	14	DETEST		na	the dancers that the athlete detest are bright	5	detest
+29	expected	15	15	PREFER		na	the doctor that the dancer prefers is entertaining	5	prefers
+30	unexpected	15	15	PREFER		na	the doctor that the dancer prefer is entertaining	5	prefer
+31	expected	16	16	PREFER		na	the doctors that the biker prefers are old	5	prefers
+32	unexpected	16	16	PREFER		na	the doctors that the biker prefer are old	5	prefer
+33	expected	17	17	LOVE		na	the doctors that the chef loves are old	5	
+34	unexpected	17	17	LOVE		na	the doctors that the chef love are old	5	
+35	expected	18	18	HATES		na	the doctors that the doctor hates smile	5	
+36	unexpected	18	18	HATES		na	the doctors that the doctor hate smile	5	
+37	expected	19	19	DETEST		na	the doctors that the kid detests paint	5	detests
+38	unexpected	19	19	DETEST		na	the doctors that the kid detest paint	5	detest
+39	expected	20	20	LOVE		na	the farmers that the pilot loves are sad	5	
+40	unexpected	20	20	LOVE		na	the farmers that the pilot love are sad	5	
+41	expected	21	21	RESPECT		na	the farmers that the pilot respects paint	5	respects
+42	unexpected	21	21	RESPECT		na	the farmers that the pilot respect paint	5	respsect
+43	expected	22	22	DETEST		na	the farmers that the writer detests cook	5	detests
+44	unexpected	22	22	DETEST		na	the farmers that the writer detest cook	5	detest
+45	expected	23	23	HATES		na	the hiker that the athlete hates is bright	5	
+46	unexpected	23	23	HATES		na	the hiker that the athlete hate is bright	5	
+47	expected	24	24	PREFER		na	the hiker that the athlete prefers cooks	5	prefers
+48	unexpected	24	24	PREFER		na	the hiker that the athlete prefer cooks	5	prefer
+49	expected	25	25	RESPECT		na	the hiker that the chef respects swims	5	respects
+50	unexpected	25	25	RESPECT		na	the hiker that the chef respect swims	5	respsect
+51	expected	26	26	DETEST		na	the hiker that the dancer detests is entertaining	5	detests
+52	unexpected	26	26	DETEST		na	the hiker that the dancer detest is entertaining	5	detest
+53	expected	27	27	LOVE		na	the hikers that the pilot loves cook	5	
+54	unexpected	27	27	LOVE		na	the hikers that the pilot love cook	5	
+55	expected	28	28	LOVE		na	the hikers that the writer loves paint	5	
+56	unexpected	28	28	LOVE		na	the hikers that the writer love paint	5	
+57	expected	29	29	LOVE		na	the jokes that the farmer loves are funny	5	
+58	unexpected	29	29	LOVE		na	the jokes that the farmer love are funny	5	
+59	expected	30	30	LOVE		na	the jokes that the hiker loves are sad	5	
+60	unexpected	30	30	LOVE		na	the jokes that the hiker love are sad	5	
+61	expected	31	31	RESPECT		na	the kid that the hiker respects smiles	5	respects
+62	unexpected	31	31	RESPECT		na	the kid that the hiker respect smiles	5	respsect
+63	expected	32	32	DETEST		na	the memory that the dancer detests is bright	5	detests
+64	unexpected	32	32	DETEST		na	the memory that the dancer detest is bright	5	detest
+65	expected	33	33	HATES		na	the movie that the pilot hates is bright	5	
+66	unexpected	33	33	HATES		na	the movie that the pilot hate is bright	5	
+67	expected	34	34	LOVE		na	the movies that the biker loves are entertaining	5	
+68	unexpected	34	34	LOVE		na	the movies that the biker love are entertaining	5	
+69	expected	35	35	LOVE		na	the movies that the hiker loves are old	5	
+70	unexpected	35	35	LOVE		na	the movies that the hiker love are old	5	
+71	expected	36	36	RESPECT		na	the pilot that the athlete respects laughs	5	respects
+72	unexpected	36	36	RESPECT		na	the pilot that the athlete respect laughs	5	respsect
+73	expected	37	37	PREFER		na	the pilot that the biker prefers swims	5	prefers
+74	unexpected	37	37	PREFER		na	the pilot that the biker prefer swims	5	prefer
+75	expected	38	38	PREFER		na	the pilot that the dancer prefers is bright	5	
+76	unexpected	38	38	PREFER		na	the pilot that the dancer prefer is bright	5	
+77	expected	39	39	RESPECT		na	the pilots that the pilot respects are bright	5	respects
+78	unexpected	39	39	RESPECT		na	the pilots that the pilot respect are bright	5	respsect
+79	expected	40	40	RESPECT		na	the show that the dancer respects is bright	5	respects
+80	unexpected	40	40	RESPECT		na	the show that the dancer respect is bright	5	respsect
+81	expected	41	41	LOVE		na	the show that the writer loves is old	5	
+82	unexpected	41	41	LOVE		na	the show that the writer love is old	5	
+83	expected	42	42	DETEST		na	the shows that the doctor detests are old	5	detests
+84	unexpected	42	42	DETEST		na	the shows that the doctor detest are old	5	detest
+85	expected	43	43	RESPECT		na	the shows that the hiker respects are funny	5	
+86	unexpected	43	43	RESPECT		na	the shows that the hiker respect are funny	5	
+87	expected	44	44	RESPECT		na	the toy that the biker respects is sad	5	respects
+88	unexpected	44	44	RESPECT		na	the toy that the biker respect is sad	5	respsect
+89	expected	45	45	HATES		na	the toy that the farmer hates is entertaining	5	
+90	unexpected	45	45	HATES		na	the toy that the farmer hate is entertaining	5	
+91	expected	46	46	HATES		na	the toys that the farmer hates are bright	5	
+92	unexpected	46	46	HATES		na	the toys that the farmer hate are bright	5	
+93	expected	47	47	HATES		na	the toys that the pilot hates are old	5	
+94	unexpected	47	47	HATES		na	the toys that the pilot hate are old	5	
+95	expected	48	48	DETEST		na	the writer that the kid detests laughs	5	detests
+96	unexpected	48	48	DETEST		na	the writer that the kid detest laughs	5	detest
+97	expected	49	49	PREFER		na	the writers that the hiker prefers paint	5	prefers
+98	unexpected	49	49	PREFER		na	the writers that the hiker prefer paint	5	prefer
+99	expected	50	50	LOVE		na	the writers that the pilot loves cook	5	
+100	unexpected	50	50	LOVE		na	the writers that the pilot love cook	5	
+101	expected	51	51	RESPECT		na	the athlete that the dancers respect is funny	5	
+102	unexpected	51	51	RESPECT		na	the athlete that the dancers respects is funny	5	
+103	expected	52	52	HATES		na	the athlete that the pilots hate is old	5	
+104	unexpected	52	52	HATES		na	the athlete that the pilots hates is old	5	
+105	expected	53	53	DETEST		na	the athletes that the hikers detest laugh	5	
+106	unexpected	53	53	DETEST		na	the athletes that the hikers detests laugh	5	
+107	expected	54	54	PREFER		na	the bikers that the hikers prefer are funny	5	
+108	unexpected	54	54	PREFER		na	the bikers that the hikers prefers are funny	5	
+109	expected	55	55	DETEST		na	the bikers that the writers detest are entertaining	5	
+110	unexpected	55	55	DETEST		na	the bikers that the writers detests are entertaining	5	
+111	expected	56	56	PREFER		na	the dancer that the farmers prefer is old	5	
+112	unexpected	56	56	PREFER		na	the dancer that the farmers prefers is old	5	
+113	expected	57	57	PREFER		na	the dancer that the kids prefer swims	5	
+114	unexpected	57	57	PREFER		na	the dancer that the kids prefers swims	5	
+115	expected	58	58	LOVE		na	the dancers that the chefs love are bright	5	
+116	unexpected	58	58	LOVE		na	the dancers that the chefs loves are bright	5	
+117	expected	59	59	LOVE		na	the dancers that the dancers love are entertaining	5	
+118	unexpected	59	59	LOVE		na	the dancers that the dancers loves are entertaining	5	
+119	expected	60	60	LOVE		na	the dancers that the hikers love smile	5	
+120	unexpected	60	60	LOVE		na	the dancers that the hikers loves smile	5	
+121	expected	61	61	LOVE		na	the dancers that the writers love are funny	5	
+122	unexpected	61	61	LOVE		na	the dancers that the writers loves are funny	5	
+123	expected	62	62	PREFER		na	the doctors that the farmers prefer are entertaining	5	
+124	unexpected	62	62	PREFER		na	the doctors that the farmers prefers are entertaining	5	
+125	expected	63	63	LOVE		na	the farmer that the bikers love is funny	5	
+126	unexpected	63	63	LOVE		na	the farmer that the bikers loves is funny	5	
+127	expected	64	64	HATES		na	the farmer that the dancers hate is sad	5	
+128	unexpected	64	64	HATES		na	the farmer that the dancers hates is sad	5	
+129	expected	65	65	HATES		na	the farmer that the kids hate swims	5	
+130	unexpected	65	65	HATES		na	the farmer that the kids hates swims	5	
+131	expected	66	66	DETEST		na	the farmer that the writers detest is sad	5	
+132	unexpected	66	66	DETEST		na	the farmer that the writers detests is sad	5	
+133	expected	67	67	PREFER		na	the hiker that the athletes prefer is sad	5	
+134	unexpected	67	67	PREFER		na	the hiker that the athletes prefers is sad	5	
+135	expected	68	68	RESPECT		na	the hiker that the writers respect is entertaining	5	
+136	unexpected	68	68	RESPECT		na	the hiker that the writers respects is entertaining	5	
+137	expected	69	69	PREFER		na	the hikers that the bikers prefer are funny	5	
+138	unexpected	69	69	PREFER		na	the hikers that the bikers prefers are funny	5	
+139	expected	70	70	DETEST		na	the hikers that the pilots detest are funny	5	
+140	unexpected	70	70	DETEST		na	the hikers that the pilots detests are funny	5	
+141	expected	71	71	HATES		na	the joke that the athletes hate is entertaining	5	
+142	unexpected	71	71	HATES		na	the joke that the athletes hates is entertaining	5	
+143	expected	72	72	RESPECT		na	the joke that the farmers respect is entertaining	5	
+144	unexpected	72	72	RESPECT		na	the joke that the farmers respects is entertaining	5	
+145	expected	73	73	LOVE		na	the jokes that the dancers love are funny	5	
+146	unexpected	73	73	LOVE		na	the jokes that the dancers loves are funny	5	
+147	expected	74	74	RESPECT		na	the kid that the doctors respect paints	5	
+148	unexpected	74	74	RESPECT		na	the kid that the doctors respects paints	5	
+149	expected	75	75	LOVE		na	the kids that the bikers love paint	5	
+150	unexpected	75	75	LOVE		na	the kids that the bikers loves paint	5	
+151	expected	76	76	RESPECT		na	the memories that the dancers respect are old	5	
+152	unexpected	76	76	RESPECT		na	the memories that the dancers respects are old	5	
+153	expected	77	77	LOVE		na	the memory that the dancers love is funny	5	
+154	unexpected	77	77	LOVE		na	the memory that the dancers loves is funny	5	
+155	expected	78	78	RESPECT		na	the memory that the doctors respect is entertaining	5	
+156	unexpected	78	78	RESPECT		na	the memory that the doctors respects is entertaining	5	
+157	expected	79	79	RESPECT		na	the memory that the doctors respect is old	5	
+158	unexpected	79	79	RESPECT		na	the memory that the doctors respects is old	5	
+159	expected	80	80	LOVE		na	the movies that the chefs love are funny	5	
+160	unexpected	80	80	LOVE		na	the movies that the chefs loves are funny	5	
+161	expected	81	81	PREFER		na	the movies that the doctors prefer are bright	5	
+162	unexpected	81	81	PREFER		na	the movies that the doctors prefers are bright	5	
+163	expected	82	82	RESPECT		na	the pilot that the athletes respect is bright	5	
+164	unexpected	82	82	RESPECT		na	the pilot that the athletes respects is bright	5	
+165	expected	83	83	LOVE		na	the pilot that the farmers love is funny	5	
+166	unexpected	83	83	LOVE		na	the pilot that the farmers loves is funny	5	
+167	expected	84	84	PREFER		na	the pilots that the bikers prefer are entertaining	5	
+168	unexpected	84	84	PREFER		na	the pilots that the bikers prefers are entertaining	5	
+169	expected	85	85	LOVE		na	the show that the chefs love is entertaining	5	
+170	unexpected	85	85	LOVE		na	the show that the chefs loves is entertaining	5	
+171	expected	86	86	LOVE		na	the show that the writers love is old	5	
+172	unexpected	86	86	LOVE		na	the show that the writers loves is old	5	
+173	expected	87	87	HATES		na	the shows that the chefs hate are old	5	
+174	unexpected	87	87	HATES		na	the shows that the chefs hates are old	5	
+175	expected	88	88	HATES		na	the shows that the dancers hate are bright	5	
+176	unexpected	88	88	HATES		na	the shows that the dancers hates are bright	5	
+177	expected	89	89	PREFER		na	the shows that the dancers prefer are funny	5	
+178	unexpected	89	89	PREFER		na	the shows that the dancers prefers are funny	5	
+179	expected	90	90	HATES		na	the toy that the bikers hate is entertaining	5	
+180	unexpected	90	90	HATES		na	the toy that the bikers hates is entertaining	5	
+181	expected	91	91	HATES		na	the toy that the chefs hate is funny	5	
+182	unexpected	91	91	HATES		na	the toy that the chefs hates is funny	5	
+183	expected	92	92	LOVE		na	the toy that the doctors love is old	5	
+184	unexpected	92	92	LOVE		na	the toy that the doctors loves is old	5	
+185	expected	93	93	LOVE		na	the toys that the doctors love are old	5	
+186	unexpected	93	93	LOVE		na	the toys that the doctors loves are old	5	
+187	expected	94	94	DETEST		na	the toys that the hikers detest are sad	5	
+188	unexpected	94	94	DETEST		na	the toys that the hikers detests are sad	5	
+189	expected	95	95	LOVE		na	the writer that the chefs love is entertaining	5	
+190	unexpected	95	95	LOVE		na	the writer that the chefs loves is entertaining	5	
+191	expected	96	96	LOVE		na	the writer that the chefs love paints	5	
+192	unexpected	96	96	LOVE		na	the writer that the chefs loves paints	5	
+193	expected	97	97	LOVE		na	the writers that the bikers love are bright	5	
+194	unexpected	97	97	LOVE		na	the writers that the bikers loves are bright	5	
+195	expected	98	98	RESPECT		na	the writers that the bikers respect are old	5	
+196	unexpected	98	98	RESPECT		na	the writers that the bikers respects are old	5	
+197	expected	99	99	LOVE		na	the writers that the chefs love are sad	5	
+198	unexpected	99	99	LOVE		na	the writers that the chefs loves are sad	5	
+199	expected	100	100	PREFER		na	the writers that the kids prefer are old	5	
+200	unexpected	100	100	PREFER		na	the writers that the kids prefers are old	5	
