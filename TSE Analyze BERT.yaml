@@ -1,0 +1,11 @@
+exp: MinimalPair
+
+mode:
+    - analyze
+models:
+      hf_causal_model:
+          - distilbert-base-uncased
+
+datafpath: TSE_bert_data.tsv
+predfpath: TSE_BERT_PRED.tsv
+resultsfpath: TSE_BERT_RESULTS.tsv

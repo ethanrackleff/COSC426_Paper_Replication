@@ -1,0 +1,10 @@
+exp: MinimalPair
+
+mode:
+    - evaluate
+models:
+      hf_causal_model:
+          - distilbert/distilgpt2
+
+datafpath: TSE_bert_data.tsv
+predfpath: TSE_GPT_PRED.tsv

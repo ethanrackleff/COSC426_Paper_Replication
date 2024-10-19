@@ -1,0 +1,12 @@
+exp: MinimalPair
+
+mode:
+    - analyze
+models:
+      hf_causal_model:
+          - distilbert/distilgpt2
+
+datafpath: EW_bert_data.tsv
+predfpath: EW_PREDICTIONS_GPT_MERGED.tsv
+resultsfpath: MW_GPT_RESULTS.tsv
+pred_measure: prob

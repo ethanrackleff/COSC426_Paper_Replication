@@ -1,0 +1,2 @@
+	model	condition	microdiff	macrodiff	acc
+0	distilbert-base-uncased	1	2.2737878438349086	2.2737878438349086	0.7981405651340996
